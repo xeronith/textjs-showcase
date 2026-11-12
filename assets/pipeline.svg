@@ -1,0 +1,89 @@
+<svg width="1200" height="180" viewBox="0 0 1200 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A Text.js frame: React, Yoga, CellBuffer, Turbolog, console.log">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="1200" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080A10"/>
+      <stop offset="1" stop-color="#0C0A13"/>
+    </linearGradient>
+    <linearGradient id="parrow" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FF4D8D"/>
+      <stop offset="0.5" stop-color="#C472FB"/>
+      <stop offset="1" stop-color="#3291FF"/>
+    </linearGradient>
+    <linearGradient id="prule" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF4D8D" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#FF4D8D"/>
+      <stop offset="0.5" stop-color="#C472FB"/>
+      <stop offset="0.75" stop-color="#3291FF"/>
+      <stop offset="1" stop-color="#3291FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="pcells" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="180" rx="12" fill="url(#pbg)"/>
+  <rect width="1200" height="180" rx="12" fill="url(#pcells)"/>
+
+  <text x="600" y="27" fill="#6F7480" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2.4" text-anchor="middle">ONE FRAME, FIVE STEPS</text>
+
+  <!-- 01 React -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <rect x="21" y="44" width="190" height="92" rx="9" fill="#0F121A" stroke="#2A2E3A"/>
+    <text x="38" y="66" fill="#FF4D8D" font-size="10" font-weight="700">01</text>
+    <text x="60" y="66" fill="#EDEDED" font-size="13" font-weight="700">React 19</text>
+    <text x="38" y="88" fill="#8A8F98" font-size="10">commits through a</text>
+    <text x="38" y="103" fill="#8A8F98" font-size="10">custom reconciler</text>
+    <text x="38" y="122" fill="#4F5460" font-size="9">hooks · suspense · router</text>
+  </g>
+  <path d="M217 90H249" stroke="url(#parrow)" stroke-width="1.5"/>
+  <path d="M244 86L250 90L244 94" stroke="#C472FB" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 02 Yoga -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <rect x="255" y="44" width="190" height="92" rx="9" fill="#0F121A" stroke="#2A2E3A"/>
+    <text x="272" y="66" fill="#C472FB" font-size="10" font-weight="700">02</text>
+    <text x="294" y="66" fill="#EDEDED" font-size="13" font-weight="700">Yoga</text>
+    <text x="272" y="88" fill="#8A8F98" font-size="10">flexbox in WASM,</text>
+    <text x="272" y="103" fill="#8A8F98" font-size="10">snapped to whole cells</text>
+    <text x="272" y="122" fill="#4F5460" font-size="9">grow · gap · border · wrap</text>
+  </g>
+  <path d="M451 90H483" stroke="url(#parrow)" stroke-width="1.5"/>
+  <path d="M478 86L484 90L478 94" stroke="#3291FF" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 03 Buffer -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <rect x="489" y="44" width="190" height="92" rx="9" fill="#0F121A" stroke="#2A2E3A"/>
+    <text x="506" y="66" fill="#3291FF" font-size="10" font-weight="700">03</text>
+    <text x="528" y="66" fill="#EDEDED" font-size="13" font-weight="700">CellBuffer</text>
+    <text x="506" y="88" fill="#8A8F98" font-size="10">paint only the rows</text>
+    <text x="506" y="103" fill="#8A8F98" font-size="10">that actually changed</text>
+    <text x="506" y="122" fill="#4F5460" font-size="9">fg · bg · bold · italic</text>
+  </g>
+  <path d="M685 90H717" stroke="url(#parrow)" stroke-width="1.5"/>
+  <path d="M712 86L718 90L712 94" stroke="#7FD88F" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 04 Turbolog -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <rect x="723" y="44" width="190" height="92" rx="9" fill="#0F121A" stroke="#2A2E3A"/>
+    <text x="740" y="66" fill="#7FD88F" font-size="10" font-weight="700">04</text>
+    <text x="762" y="66" fill="#EDEDED" font-size="13" font-weight="700">Turbolog</text>
+    <text x="740" y="88" fill="#8A8F98" font-size="10">dirty gate, then RLE:</text>
+    <text x="740" y="103" fill="#8A8F98" font-size="10">3,200 cells → 149 spans</text>
+    <text x="740" y="122" fill="#4F5460" font-size="9">unchanged frame = 0 calls</text>
+  </g>
+  <path d="M919 90H951" stroke="url(#parrow)" stroke-width="1.5"/>
+  <path d="M946 86L952 90L946 94" stroke="#F5A524" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 05 console.log -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <rect x="957" y="44" width="222" height="92" rx="9" fill="#0F121A" stroke="#2A2E3A"/>
+    <text x="974" y="66" fill="#F5A524" font-size="10" font-weight="700">05</text>
+    <text x="996" y="66" fill="#EDEDED" font-size="13" font-weight="700">console.log</text>
+    <text x="974" y="88" fill="#8A8F98" font-size="10">one %c call per</text>
+    <text x="974" y="103" fill="#8A8F98" font-size="10">changed frame</text>
+    <text x="974" y="122" fill="#4F5460" font-size="9">appended, never cleared</text>
+  </g>
+
+  <text x="600" y="160" fill="#4F5460" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="1" text-anchor="middle">THE SAME TREE ALSO RUNS IN A TERMINAL AND FOR CODING AGENTS OVER MCP</text>
+  <rect x="0" y="177" width="1200" height="1" fill="url(#prule)"/>
+</svg>
