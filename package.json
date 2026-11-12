@@ -1,0 +1,22 @@
+{
+  "name": "textjs-showcase",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "text dev",
+    "build": "text build",
+    "start": "text start",
+    "test": "bun scripts/smoke.tsx",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "@textjs/app": "^1.6.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "typescript": "^5.8.3"
+  }
+}
